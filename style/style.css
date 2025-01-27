@@ -1,0 +1,162 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 1326px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+/*               Header           */
+
+.header {
+  background: rgba(24, 24, 24, 0.2);
+  background-image: url(./image/Background-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-page .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(24, 24, 24, 0.7);
+}
+
+.logo-header {
+  font-family: "Rubik Wet Paint", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1;
+  background: linear-gradient(0deg, #ff58a8 14.4%, #02ffe1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  margin-left: 82px;
+  padding-top: 18px;
+  width: 160px;
+}
+.nav-header {
+  display: flex;
+}
+.nav-header-list {
+  display: flex;
+  gap: 24px;
+  padding: 28px 0;
+  margin-left: 208px;
+  margin-right: 134px;
+}
+.lang-header-list {
+  display: flex;
+}
+
+.nav-header-item {
+  /* margin-right: 20px; */
+}
+.nav-header-item-link {
+  font-weight: 400;
+  font-size: 16px;
+  color: #f8f8f8;
+  display: block;
+}
+.lang-header-list {
+  display: flex;
+}
+.lang-header-item-ua {
+  font-weight: 400;
+  font-size: 12px;
+  color: #181818;
+  display: flex;
+  padding: 8px;
+  width: 33px;
+  height: 30px;
+  background-color: #78b1c6;
+}
+
+.lang-header-item-en {
+  font-weight: 400;
+  font-size: 12px;
+  color: #78b1c6;
+  display: flex;
+  border: 1px solid #78b1c6;
+  padding: 8px;
+  width: 33px;
+  height: 30px;
+}
+.tel-header {
+  display: flex;
+  align-items: center;
+}
+.tel-header-link {
+  font-weight: 600;
+  font-size: 16px;
+  text-align: right;
+  color: #f8f8f8;
+  display: block;
+}
+
+/*             Hero */
+.hero {
+  background-image: url(./image/Background-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 212px;
+}
+.hero-title {
+  font-family: "Rubik Wet Paint", sans-serif;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 1.6;
+  text-transform: uppercase;
+  background: linear-gradient(0deg, #ff58a8 14.4%, #02ffe1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 856px;
+  padding-left: 72px;
+  margin-bottom: 32px;
+}
+.hero-txt {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.6;
+  color: rgba(248, 248, 248, 0.98);
+  padding-left: 72px;
+  margin-bottom: 32px;
+}
+.hero-btn {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  color: #1a1a1a;
+  padding: 16px 32px;
+  width: 355px;
+  height: 77px;
+  background: rgba(118, 178, 198, 0.6);
+  margin-left: 72px;
+}
